@@ -1,0 +1,131 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 980px;
+  background: url("/background.png");
+  /* background: url("/sd.jpg"); */
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+.top-container {
+  border-bottom: 5px solid black;
+  padding-bottom: 3px;
+  width: 965px;
+}
+
+.left-col {
+  width: 320px;
+  height: 430px;
+  /* margin-left: 20px; */
+  /* border: 1px solid black; */
+  display: inline-block;
+  float: left;
+}
+
+.right-col {
+  display: inline-block;
+  width: 635px;
+  height: 430px;
+  /* border: 1px solid black; */
+  position: relative;
+}
+
+.sites {
+  margin-top: 28px;
+  margin-left: 10px;
+}
+
+
+.mobile-img {
+  display: none;
+}
+
+h1.welcome {
+  font-size: 30px;
+  font-family: 'InterBld', times new roman;
+  margin-top: 193px;
+  margin-left: 60px;
+  /* position: absolute; */
+  /* top: 50%; */
+}
+
+.content {
+  max-width: 575px;
+  width: 100%;
+  margin-left: 320px;
+  padding: 7px 0px 10px 60px;
+  font-family: Georgia;
+}
+
+.content p {
+  line-height: 24px;
+  margin-bottom: 28px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #E25A48;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: 'InterBld';
+  /* src: url('Interstate-Bold.scr'); */
+  src: url('Proxima Nova Cond Bold.otf');
+}
+
+@media only screen and (max-width : 960px) {
+  .container {
+    width: 100%;
+  }
+  .container, .top-container {
+    background: none;
+    padding: 0;
+    margin: 0;
+    height: auto;
+  }
+  .top-container {
+    padding: 10px;
+    width: auto;
+  }
+  .mobile-img {
+    max-width: 100%;
+    /* display: inline; */
+    text-align: center;
+  }
+  h1.welcome {
+    margin: 0;
+    margin-top: 0px;
+    font-size: 28px;
+    text-align: center;
+  }
+  .left-col {
+    display: none;
+  }
+  .right-col {
+    width: 100%;
+    height: auto;
+  }
+  .content {
+    width: auto;
+    margin: 0;
+    padding: 10px;
+  }
+}
