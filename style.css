@@ -53,7 +53,7 @@ body {
 
 h1.welcome {
   font-size: 30px;
-  font-family: 'InterBld', times new roman;
+  font-family: 'InterBld', "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   margin-top: 193px;
   margin-left: 60px;
   /* position: absolute; */
