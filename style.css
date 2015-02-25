@@ -12,7 +12,7 @@ body {
 .container {
   margin: 0 auto;
   max-width: 980px;
-  background: url("/background.png");
+  background: url("background.png");
   /* background: url("/sd.jpg"); */
   background-repeat: no-repeat;
   padding-left: 20px;
